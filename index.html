@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      
+      <header>
+            <h1>THE CODE REVIEW</h1>
+      </header>
+
+
+      <form action="index.html" method="post">
+
+        
+        <div class="intro">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+
+
+        <hr class="line">
+        <hr>
+
+        <fieldset>
+
+            <legend>Contact Information</legend>
+        
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="user_name" placeholder="Required ">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="user_email" placeholder="Required ">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="user_phone-number">
+
+            <label for="street_address">Street Address</label>
+            <input type="text" id="street_address" name="user_street_address">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="user_city">
+
+            <label for="state">State</label>
+            <select id="state" name="user_state">
+                <option value="AL">Choose State</option>       
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+            </select>
+
+            <label for="zip_code">Zip Code</label>
+            <input type="text" id="zip_code" name="user_zip_code">
+
+            <hr>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Newsletter</legend>
+
+            <p>Select the newsletters you would like to receive</p>
+
+            
+            <input type="checkbox" id="html_news" value="html_news">
+            <label for="html_news" class="light">HTML News</label><br>
+
+            <input type="checkbox" id="css_news" value="css_news">
+            <label for="css_news" class="light">CSS News</label><br>       
+            
+            <input type="checkbox" id="javascript_news" value="javascript_news">
+            <label for="javascript_news" class="light">Javascript News</label><br>          
+           
+            <p>Newsletter format</p>
+
+            <input type="radio" id="html" name="format">
+            <label for="html" class="light">HTML</label><br>
+            
+            <input type="radio" id="plain_text" name="format">
+            <label for="plain_text" class="light">Plain text</label><br>
+            
+
+            <p>Other topics you'd like to hear about </p><br>
+
+            <textarea id="comment" name="user_comment"></textarea>
+
+        </fieldset>
+
+        <button type="submit">Sign Up</button>
+
+      </form>
+
+      <footer>
+          <span>Copyright The Code Review</span>
+      </footer>
+
+      
+      
+    </body>
+</html>
