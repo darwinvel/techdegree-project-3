@@ -32,15 +32,19 @@ header {
 }
 
 
-.line {
-  border: 2px solid black;
+.line-thick {
+  height: 4px;
+  border-top: 2px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 0px;
+  border-left: 0px;
 }
 
-
-
-hr {
-  border-top: 2px solid black;
+/*
+.line-thin {
+  styles for thinner horizontal rule here
 }
+*/
 
 
 
