@@ -40,16 +40,10 @@ header {
   border-left: 0px;
 }
 
+
 .line-thin {
   border-top: 2px solid #000;
 }
-
-/*
-.line-thin {
-  styles for thinner horizontal rule here
-}
-*/
-
 
 
 footer {
