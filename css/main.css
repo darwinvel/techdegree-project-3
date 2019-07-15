@@ -34,10 +34,14 @@ header {
 
 .line-thick {
   height: 4px;
-  border-top: 2px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-top: 4px solid #000;
+  border-bottom: 2px solid #000;
   border-right: 0px;
   border-left: 0px;
+}
+
+.line-thin {
+  border-top: 2px solid #000;
 }
 
 /*
