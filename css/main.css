@@ -94,7 +94,7 @@ input[type="checkbox"] {
 
 
 
-[placeholder="Required "]{
+input[placeholder="Required "]{
   text-align: right;
   font-style: italic;
   font-size: .5em;
