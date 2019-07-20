@@ -97,7 +97,7 @@ input[type="checkbox"] {
 input[placeholder="Required "]{
   text-align: right;
   font-style: italic;
-  font-size: .5em;
+  font-size: .8em;
 }
 
 
@@ -166,6 +166,27 @@ label.light {
 
 
 /* =================================
+  Pseudo Class
+==================================== */
+
+input:focus {
+  background: lightgrey;
+  border: 2px solid grey;
+}
+
+textarea:focus {
+  background: lightgrey;
+  border: 2px solid grey;
+}
+
+
+
+
+
+
+
+
+/* =================================
   Media Queries
 ==================================== */
 
@@ -177,5 +198,21 @@ label.light {
     margin: 0 auto;
   }
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .item-1 {
+    flex-grow:0;
+    flex-basis: 150px;
+  }
+
+  .item-2 {
+    flex-grow:1;
+  }
+  
+  
 }
 
