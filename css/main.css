@@ -146,7 +146,7 @@ label {
 
 
 label.light {
-  font-weight: 1em;
+  font-weight: normal;
   display: inline;
 }
 
