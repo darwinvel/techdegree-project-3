@@ -94,7 +94,7 @@ input[type="checkbox"] {
 
 
 
-input[placeholder="Required "]{
+input::placeholder {
   text-align: right;
   font-style: italic;
   font-size: .8em;
