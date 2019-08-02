@@ -82,7 +82,8 @@ select {
 
 
 select[id="state"] {
-  padding-right: 15px
+  padding-right: 15px;
+  height: 53px;
 }
 
 input[id="zip_code"] {
